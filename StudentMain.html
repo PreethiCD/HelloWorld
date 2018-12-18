@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Student</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+</head>
+<body>
+	<style>
+	h4{
+		margin-bottom: 0px;
+	}
+</style>
+<div class="container">
+	<nav class="navbar-fixed-top container navbar navbar-light bg-info">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand">The Logo</a>
+			</div>
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="StudentMain.html">Home</a></li>
+				<li><a href="studentMyEvent.html">My Events</a></li>
+				<li><a href="#progressReport">Progress Report</a></li>
+				<li><a href="StudentBadge.html">Selection Sheets</a></li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"
+					role="button" aria-haspopup="true" aria-expanded="false">Notifications</a>
+					<div class="dropdown-menu">
+						<span class="dropdown-item-text">one</span>
+						<div role="separator" class="dropdown-divider">
+						</div>
+						<span class="dropdown-item-text">two</span>
+						<div role="separator" class="dropdown-divider">
+						</div>
+						<span class="dropdown-item-text">three</span>
+					</div>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#">My Profile</a></li>
+					<li><a href="login.html">Log Out</a></li>
+				</ul>
+			</div>
+		</nav>
+		<script>
+			function register(){
+			}
+		</script>
+		<div id="allEvents"></div>
+		<br><br><br>
+		<h2 class="text-center">All Events</h2>
+		<table class="table table-hover">
+			<thead>
+				<tr>
+					<th>Event Name</th>
+					<th>Association Name</th>
+					<th>Event Date</th>
+					<th>Register</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td class="col-sm-5">
+						<h4>Event 1</h4>
+					</td>
+					<td class="col-sm-4">
+						<h5>Association Name 1</h5>
+					</td>
+					<td class="col-sm-2">
+						<h5>Event date 1</h5>
+					</td>
+					<td class="col-sm-1">
+						<button id="register" onclick="register()" class="btn btn-success"><a href="EventIndividual.html" style="text-decoration:none;color:#ffffff;">Register</a></button>
+					</td>
+				</tr>
+				<tr>
+					<td class="col-sm-5">
+						<h4>Event 2</h4>
+					</td>
+					<td class="col-sm-4">
+						<h5>Association Name 2</h5>
+					</td>
+					<td class="col-sm-2">
+						<h5>Event date 2</h5>
+					</td>
+					<td class="col-sm-1">
+						<button id="register" onclick="register()" class="btn btn-success">Register</button>
+					</td>
+				</tr>
+				<tr>
+					<td class="col-sm-5">
+						<h4>Event 3</h4>
+					</td>
+					<td class="col-sm-4">
+						<h5>Association Name 3</h5>
+					</td>
+					<td class="col-sm-2">
+						<h5>Event date 3</h5>
+					</td>
+					<td class="col-sm-1">
+						<button id="register" onclick="register()" class="btn btn-success">Register</button>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+			
+	</body>
+	</html>
